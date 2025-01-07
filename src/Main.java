@@ -30,7 +30,7 @@ public class Main {
         // creo un nuovo array di un elemento più grande (in java gli array hanno lunghezza fissa)//
         String[] newArray = new String [myArray.length + 1];
         //ciclo for per copiarci dentro gli elementi prima della posizione in cui voglio inserire la nuova stringa (indice 3)//
-        //inizializzo i a 0 scrivendo int perché è necessario in java. i<3 perché è in quel punto che vogliuo aggiungere il nuovo elemento//
+        //inizializzo i a 0 scrivendo int perché è necessario in java. i<3 perché è in quel punto che voglio aggiungere il nuovo elemento//
 
         for (int i=0; i<3; i++){
             //copiami nel nuovo array ogni elemento di myarray prima di quell'indice//
@@ -64,7 +64,7 @@ System.out.println(reversedStrings);
         System.out.println(perimetroRettangolo);
 
         int n1 = 4;
-        int dividedBy = 0;
+        int dividedBy = 0; //inizializzo a 0//
         if (n1 %2 == 0) {
            dividedBy = 0;
         } else {dividedBy=1;}
