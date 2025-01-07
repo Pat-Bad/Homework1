@@ -55,6 +55,7 @@ String joinedStrings = stringa + " " + stringa2 + " " + stringa3;
 String reversedStrings = stringa3 + " " + stringa2 + " " + stringa;
 System.out.println(joinedStrings);
 System.out.println(reversedStrings);
+scanner.close();
 
 //calcolo del perimetro di un rettangolo in decimali. 2b+2h. double//
 
